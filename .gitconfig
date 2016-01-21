@@ -1,0 +1,12 @@
+[user]
+  name = sonoshou
+  email = sonoshou@gmail.com
+[alias]
+  br = branch
+  cm = commit
+  co = checkout
+  st = status
+[color]
+  ui = true
+[push]
+  default = simple
