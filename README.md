@@ -5,10 +5,38 @@
 cd ~
 git clone --recursive https://github.com/sonoshou/dotfiles.git
 ./dotfiles/dotfilesLink.sh
-
-# Install molokai
-mkdir -p ~/.vim/colors/
-wget https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
-mv molokai.vim ~/.vim/colors/molokai.vim
 ````
 
+# vimrc
+
+## NeoBundle
+
+- NerdTree
+- CtrlpVim
+- Syantastic
+- VimAutoclose
+- VimTags
+
+## color
+
+- molokai
+
+# bashrc
+
+## alias
+
+- be = bundle exec
+
+## crontab
+
+- seal crontab -r
+- editor setting
+
+# gitconfig
+
+## alias
+
+- br = branch
+- cm = commit
+- co = checkout
+- st = status
