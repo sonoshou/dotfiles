@@ -1,7 +1,12 @@
 #!/bin/sh
 
-git submodule update --init
+# copy
+cp -i ~/dotfiles/.vimrc ~/.vimrc
+cp -i ~/dotfiles/.bashrc ~/.bashrc
+cp -i ~/dotfiles/.gitconfig ~/.gitconfig
 
-ln -s ~/dotfiles/.vimrc ~/.vimrc || exit 1
-ln -s ~/dotfiles/.bashrc ~/.bashrc || exit 1
-ln -s ~/dotfiles/.gitconfig ~/.gitconfig || exit 1
+# install molokai
+mkdir -p ~/.vim/colors/
+wget https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
+mv molokai.vim ~/.vim/colors/molokai.vim
+
