@@ -261,7 +261,7 @@ set t_Co=256
 
 " ---------------------ctrlp setting
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.jpg,*.png
-let g:ctrlp_custom_ignore = '\v[\/](vendor|bundler|.git|.svn)$'
+let g:ctrlp_custom_ignore = '\v[\/](vendor|bundle|.git|.svn)$'
 let g:ctrlp_prompt_mappings = {
   \ 'PrtSelectMove("j")':   ['<c-n>'],
   \ 'PrtSelectMove("k")':   ['<c-p>'],
