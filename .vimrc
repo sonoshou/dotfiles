@@ -263,7 +263,7 @@ set t_Co=256
 let g:ctrlp_custom_ignore = 'vendor/bundle'
 let g:ctrlp_custom_ignore = '.git'
 let g:ctrlp_custom_ignore = '.svn'
-`
+
 let g:ctrlp_prompt_mappings = {
   \ 'PrtSelectMove("j")':   ['<c-n>'],
   \ 'PrtSelectMove("k")':   ['<c-p>'],
