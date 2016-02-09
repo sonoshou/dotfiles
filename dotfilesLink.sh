@@ -10,3 +10,7 @@ mkdir -p ~/.vim/colors/
 wget https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
 mv molokai.vim ~/.vim/colors/molokai.vim
 
+# install filetype
+mkdir -p ~/.vim/ftplugin
+cp .vim/filetype.vim ~/.vim/filetype.vim
+cp -r .vim/ftplugin/ ~/.vim/ftplugin/
