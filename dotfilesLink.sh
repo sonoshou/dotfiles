@@ -12,5 +12,5 @@ mv molokai.vim ~/.vim/colors/molokai.vim
 
 # install filetype
 mkdir -p ~/.vim/ftplugin
-cp .vim/filetype.vim ~/.vim/filetype.vim
-cp -r .vim/ftplugin/ ~/.vim/ftplugin/
+cp ~/dotfiles/.vim/filetype.vim ~/.vim/filetype.vim
+cp -r ~/dotfiles/.vim/ftplugin/ ~/.vim/ftplugin/
