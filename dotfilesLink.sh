@@ -14,3 +14,6 @@ mv molokai.vim ~/.vim/colors/molokai.vim
 mkdir -p ~/.vim/ftplugin
 cp ~/dotfiles/.vim/filetype.vim ~/.vim/filetype.vim
 cp -r ~/dotfiles/.vim/ftplugin/ ~/.vim/ftplugin/
+
+# remove .files
+mv ~/dotfiles/ ~/.dotfiles/

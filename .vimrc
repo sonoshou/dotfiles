@@ -219,10 +219,10 @@ set ttymouse=xterm2
 " Start Neobundle Settings.
 "---------------------------
 " bundleで管理するディレクトリを指定
-set runtimepath+=~/dotfiles/.vim/bundle/neobundle.vim/
+set runtimepath+=~/.dotfiles/.vim/bundle/neobundle.vim/
 
 " Required:
-call neobundle#begin(expand('~/dotfiles/.vim/bundle/'))
+call neobundle#begin(expand('~/.dotfiles/.vim/bundle/'))
 
 " neobundle自体をneobundleで管理
 NeoBundleFetch 'Shougo/neobundle.vim'
