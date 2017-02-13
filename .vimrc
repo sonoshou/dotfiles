@@ -270,4 +270,5 @@ let g:ctrlp_prompt_mappings = {
   \ 'AcceptSelection("e")': ['<c-o>'],
   \ }
 
-
+" コメントをダークグレイに
+hi Comment ctermfg=DarkGray
