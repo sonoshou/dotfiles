@@ -5,6 +5,9 @@ cp -i ~/dotfiles/.vimrc ~/.vimrc
 cp -i ~/dotfiles/.bashrc ~/.bashrc
 cp -i ~/dotfiles/.gitconfig ~/.gitconfig
 
+# Neobundle Install
+git clone https://github.com/Shougo/neobundle.vim.git ~/dotfiles/.vim/bundle/neobundle.vim
+
 # install molokai
 mkdir -p ~/.vim/colors/
 wget https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
