@@ -271,4 +271,4 @@ let g:ctrlp_prompt_mappings = {
   \ }
 
 " コメントをダークグレイに
-hi Comment ctermfg=DarkGray
+hi Comment ctermfg=Gray
