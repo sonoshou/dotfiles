@@ -5,9 +5,15 @@ if [ -f /etc/bashrc ]; then
         . /etc/bashrc
 fi
 
+# vimを使う
+# vimの実行ファイル
+VIM_PATH="/usr/bin/vim"
+
 # User specific aliases and functions
 
 alias be="bundle exec"
+alias vi=$VIM_PATH
+alias vim=$VIM_PATH
 
 # crontab -r を封印する
 function crontab() {
@@ -22,4 +28,4 @@ function crontab() {
 }
 
 # For crontab
-export EDITOR="/usr/bin/vim"
+export EDITOR=$VIM_PATH
